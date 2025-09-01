@@ -18,7 +18,7 @@ Angular 17 fitness studio platform with role-based authentication, Material Desi
 
 ### Class Information
 - Comprehensive class details (Pilates, Yoga, TRX, Aerobics, etc.)
-- Class scheduling and timing information
+- Class times and schedule information
 - Interactive class cards with detailed popups
 
 ### Member Information
@@ -60,9 +60,7 @@ Navigate to `http://localhost:4200/`
 
 ## Demo Users
 
-**Teachers:** רחל (1234), נחמי (556), שרה (8989), נועה (5598), לאה (154), הדס (875)
-
-**Secretaries:** יעל (52641), מיכל (44), ריקי (8796)
+Demo login credentials are available in the application source code for testing purposes.
 
 ## Project Structure
 
