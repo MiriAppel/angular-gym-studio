@@ -2,6 +2,17 @@
 
 Angular 17 fitness studio platform with role-based authentication, Material Design UI and AG Grid for viewing classes and registered members.
 
+## Screenshots
+
+### Login Page
+<img width="1907" height="898" alt="צילום מסך 2025-09-02 005419" src="https://github.com/user-attachments/assets/45e9af66-8a84-447b-bd32-eb2f5153d1b0" />
+
+### Teacher Dashboard
+<img width="1888" height="904" alt="צילום מסך 2025-09-02 005608" src="https://github.com/user-attachments/assets/ab741139-2122-4911-8584-f3639f311097" />
+
+### Secretary Dashboard  
+<img width="1915" height="906" alt="צילום מסך 2025-09-02 005725" src="https://github.com/user-attachments/assets/bfb8b6dd-7995-4d8c-8f7b-954cf2d41aef" />
+
 ## Features
 
 ### Role-Based Authentication
