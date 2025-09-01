@@ -12,7 +12,7 @@ Angular 17 fitness studio platform with role-based authentication, Material Desi
 ### User Interface
 - Modern Material Design with Angular Material components
 - Responsive grid layout for class display
-- Advanced data tables with AG Grid (filtering, sorting, custom renderers)
+- Advanced data tables with AG Grid (filtering, sorting)
 - Hebrew language support with RTL layout
 - Professional styling with hover effects and animations
 
@@ -24,7 +24,7 @@ Angular 17 fitness studio platform with role-based authentication, Material Desi
 ### Member Information
 - Complete member registration data
 - Payment status tracking with visual indicators
-- Advanced filtering and search capabilities
+- Advanced filtering capabilities
 - Detailed member information display
 
 ## Technologies
@@ -88,9 +88,3 @@ Run `ng build` to build the project. Build artifacts will be stored in the `dist
 
 Run `ng test` to execute unit tests via [Karma](https://karma-runner.github.io).
 
-## Technologies Stack
-
-- Angular 17.3
-- Angular Material 17.3
-- AG Grid Community 33.3
-- TypeScript 5.4
