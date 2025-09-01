@@ -1,63 +1,50 @@
-Gym Studio Platform
+# Gym Studio Platform
+
 Angular 17 fitness studio platform with role-based authentication, Material Design UI and AG Grid for viewing classes and registered members.
 
-Features
-Role-Based Authentication
-Teachers - Access to class schedules and lesson details
+## Features
 
-Secretaries - Access to registered members and payment status
+### Role-Based Authentication
+- **Teachers** - Access to class schedules and lesson details
+- **Secretaries** - Access to registered members and payment status
+- Dynamic routing based on user permissions
 
-Dynamic routing based on user permissions
+### User Interface
+- Modern Material Design with Angular Material components
+- Responsive grid layout for class display
+- Advanced data tables with AG Grid (filtering, sorting, editing)
+- Hebrew language support with RTL layout
+- Professional styling with hover effects and animations
 
-User Interface
-Modern Material Design with Angular Material components
+### Class Management
+- Comprehensive class information (Pilates, Yoga, TRX, Aerobics, etc.)
+- Instructor details and scheduling
+- Class status tracking (started/upcoming)
+- Interactive class cards with detailed popups
 
-Responsive grid layout for class display
+### Member Management
+- Complete member registration data
+- Payment status tracking with visual indicators
+- Advanced filtering and search capabilities
+- Detailed member information display
 
-Advanced data tables with AG Grid (filtering, sorting, editing)
+## Technologies
 
-Hebrew language support with RTL layout
+- **Angular 17** - Latest Angular framework with Standalone Components
+- **Angular Material** - Material Design component library
+- **AG Grid** - Professional data grid with advanced features
+- **TypeScript** - Type-safe development
+- **Reactive Forms** - Advanced form handling and validation
+- **RxJS** - Reactive programming patterns
 
-Professional styling with hover effects and animations
+## Getting Started
 
-Class Management
-Comprehensive class information (Pilates, Yoga, TRX, Aerobics, etc.)
+### Prerequisites
+- Node.js 18+
+- Angular CLI 17+
 
-Instructor details and scheduling
-
-Class status tracking (started/upcoming)
-
-Interactive class cards with detailed popups
-
-Member Management
-Complete member registration data
-
-Payment status tracking with visual indicators
-
-Advanced filtering and search capabilities
-
-Detailed member information display
-
-Technologies
-Angular 17 - Latest Angular framework with Standalone Components
-
-Angular Material - Material Design component library
-
-AG Grid - Professional data grid with advanced features
-
-TypeScript - Type-safe development
-
-Reactive Forms - Advanced form handling and validation
-
-RxJS - Reactive programming patterns
-
-Getting Started
-Prerequisites
-Node.js 18+
-
-Angular CLI 17+
-
-Installation
+### Installation
+```bash
 # Clone the repository
 git clone https://github.com/MiriAppel/gym-studio-platform.git
 
@@ -69,32 +56,28 @@ npm install
 
 # Start development server
 ng serve
+```
 
-Copy
-Navigate to http://localhost:4200/
+Navigate to `http://localhost:4200/`
 
-Demo Users
-Teachers
-רחל / Password: 1234
+## Demo Users
 
-נחמי / Password: 556
+### Teachers
+- **רחל** / Password: 1234
+- **נחמי** / Password: 556
+- **שרה** / Password: 8989
+- **נועה** / Password: 5598
+- **לאה** / Password: 154
+- **הדס** / Password: 875
 
-שרה / Password: 8989
+### Secretaries
+- **יעל** / Password: 52641
+- **מיכל** / Password: 44
+- **ריקי** / Password: 8796
 
-נועה / Password: 5598
+## Project Structure
 
-לאה / Password: 154
-
-הדס / Password: 875
-
-Secretaries
-יעל / Password: 52641
-
-מיכל / Password: 44
-
-ריקי / Password: 8796
-
-Project Structure
+```
 src/
 ├── app/
 │   ├── components/
@@ -108,21 +91,20 @@ src/
 │   └── app.config.ts        # App configuration
 └── assets/
     └── images/              # Logo and images
+```
 
-Copy
-Build
-Run ng build to build the project. Build artifacts will be stored in the dist/ directory.
+## Build
 
-Testing
-Run ng test to execute unit tests via Karma.
+Run `ng build` to build the project. Build artifacts will be stored in the `dist/` directory.
 
-Technologies Stack
-Angular 17.3
+## Testing
 
-Angular Material 17.3
+Run `ng test` to execute unit tests via [Karma](https://karma-runner.github.io).
 
-AG Grid Community 33.3
+## Technologies Stack
 
-TypeScript 5.4
-
-RxJS 7.8ר
+- Angular 17.3
+- Angular Material 17.3
+- AG Grid Community 33.3
+- TypeScript 5.4
+- RxJS 7.8
