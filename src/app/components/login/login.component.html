@@ -1,0 +1,12 @@
+<div class="container">
+    <img src="../../../assets/images/logoGym.png" alt="gym studio" class="logo">
+    <form [formGroup]="formLogin" class="login-form">
+        <input type="text" formControlName="userName" placeholder="שם משתמש" class="input-field"><br><br>
+        <input type="password" formControlName="password" placeholder="סיסמא" class="input-field"><br><br>
+        <section>
+            <div class="example-button-row">
+              <button mat-flat-button class="login-button" (click)="enter()" [disabled]="!formLogin.valid">כניסה</button>
+            </div>
+        </section>
+    </form>
+</div>

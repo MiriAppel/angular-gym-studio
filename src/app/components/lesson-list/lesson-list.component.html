@@ -1,0 +1,7 @@
+<img src="../../../assets/images/logoGym.png" alt="gym studio" class="logo" (click)="enterLogin()">
+<div class="lesson-gallery">
+    <div *ngFor="let lesson of lessons" class="lesson-card">
+        <button [ngClass]="{'start': started(lesson.startDate)}" class="lesson-link" (click)="getDetails(lesson)">{{ lesson.lessonName }}</button>
+    </div>
+    <app-lesson-details *ngIf="detailLesson" [dLesson]="detailLesson"></app-lesson-details>
+</div>
