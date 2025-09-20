@@ -98,4 +98,3 @@ Run `ng build` to build the project. Build artifacts will be stored in the `dist
 ## Testing
 
 Run `ng test` to execute unit tests via [Karma](https://karma-runner.github.io).
-
