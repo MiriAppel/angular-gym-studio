@@ -1,6 +1,6 @@
-# Gym Studio Platform
+# Angular Gym Studio
 
-Angular 17 fitness studio platform with role-based authentication, Material Design UI and AG Grid for viewing classes and registered members.
+Angular 17 gym studio application with role-based authentication, Material Design UI and AG Grid for viewing classes and registered members.
 
 ## Screenshots
 
@@ -55,10 +55,10 @@ Angular 17 fitness studio platform with role-based authentication, Material Desi
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/MiriAppel/gym-studio-platform.git
+git clone https://github.com/MiriAppel/angular-gym-studio.git
 
 # Navigate to project directory
-cd gym-studio-platform
+cd angular-gym-studio
 
 # Install dependencies
 npm install
